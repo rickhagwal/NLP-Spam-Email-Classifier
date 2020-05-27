@@ -82,6 +82,7 @@ Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting 
 
 #### Model Building, to be placed under Flask Api-
 
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/nlp_model.pkl
 
 #### Model deployment on Heroku platform-
 

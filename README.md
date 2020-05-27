@@ -1,6 +1,7 @@
 # Spam Email Classifier- (via Natural Language Processing)
 
 
+## Part 1: Data Collection-
   Dataset is taken from UCI website.
   
 
@@ -12,16 +13,17 @@
 
   https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
   
-  
+## Part 2: Data Modleing-
+    
   Machine Learning Models used-
   
   
-##### i.) Naive Bayes Model: 
+- Naive Bayes Model: 
   
   https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Bayesian_Inference.ipynb
   
   
-##### ii.) Ensemble Machine Learning Model-
+- Ensemble Machine Learning Model-
 
    Here, various ensemble models are used i.e.,- 
    
@@ -33,36 +35,31 @@
 
    https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Ensemble%20Machine%20Learning/Spam_%26_Ensembles.ipynb
    
-##### iii.) Classification Models Metrics Calculation-
+## Part 3: Metrics Calculation-
 
 https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Classification%20with%20metrics/Classification_Metrics.ipynb
 
 Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting Calssifier, Adaboost Classifier, SVM) are calculated such as- 
 
-  i.) Accuracy: 
+  - Accuracy: 
 
-  ii.) Precision
+  - Precision
 
-  iii.) Recall
+  - Recall
 
-  iv) F-1 Score
+  - F-1 Score
 
-#### And, it can be seen that Naive Bayes performed better than all the models in terms of Accuracy, Recall and F-1 score. Only for Recall metrics, Random Forest Classifier works best as shown below-
-
-
-
+ And, it can be seen that Naive Bayes performed better than all the models in terms of Accuracy, Recall and F-1 score. Only for Recall metrics, Random Forest Classifier works best as shown below-
 
 ![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/Metrics_Calculation_Image.PNG)
 
-
-
 & their, Accuracy, Precision, Recall and F1 scores are compared at the end, with Naive Bayes model approach, which already performed very well on the data.
 
-#### Also, ROC Curve i.e., Receiver Operating Characteristic Curve)  to determine split, is calculated for all the models, and it can be seen that the ROC curve split can be best done in Naive Bayes model(96.82%), compared to other models. as shown below-
+ Also, ROC Curve i.e., Receiver Operating Characteristic Curve)  to determine split, is calculated for all the models, and it can be seen that the ROC curve split can be best done in Naive Bayes model(96.82%), compared to other models. as shown below-
 
 ![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/ROC_Score.PNG)
 
-### ROC Curves for the models-
+## Part 4: ROC Curves for the models-
 
 #### i) Naive Bayes-
 
@@ -80,16 +77,15 @@ Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting 
 
 ![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/Bag_roc.PNG)
 
-#### Pickle file generated from trained model, placed under Flask Api-
+## Part 5: Pickle file generated from trained model, placed under Flask Api-
 
 https://github.com/rickhagwal/Natural-Language-Processing/blob/master/nlp_model.pkl
 
-#### Model deployment on Heroku platform-
+## Part 6: Model deployment on Heroku platform-
 
 https://spam-emails-predict-via-nlp.herokuapp.com/
 
-
-Test cases on deployed model-
+## Part 7: Test cases on deployed model-
 
 - Spam Email:
 
@@ -110,6 +106,4 @@ Input-
 Output-
 
 ![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail-output.PNG)
-
-
 

@@ -13,3 +13,27 @@ using tools/technologies such as - Python, Jupyter Notebook, NLP(Natural Languag
 ### Spam Email Classifier is deployed on Heroku platform-
 
 https://spam-emails-predict-via-nlp.herokuapp.com/
+
+
+Test cases on deployed model-
+
+i.) Spam Email-
+
+Input-
+
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/spam-test-mail.PNG
+
+Output-
+
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/spam-test-mail-output.PNG
+
+ii.) Ham Email-
+
+Input-
+
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail.PNG
+
+Output-
+
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail-output.PNG
+

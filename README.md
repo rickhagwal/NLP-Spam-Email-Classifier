@@ -82,7 +82,7 @@ Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting 
 
 Applied Count Vectorizer and tfIdf Vectorizer on Random Forest and Gradient Boosting models-
 
-https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/Natural%20Language%20Processing/MLClassifier_GradientBoostingModel_with_grid-search.ipynb
+https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/Natural%20Language%20Processing/MLClassifier_RandomForestModel_with_grid-search.ipynb
 
 Precision: 1.0 , Recall: 0.83 , Accuracy: 0.977
 

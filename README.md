@@ -1,4 +1,5 @@
-# Spam Email Classifier- (via Supervised Learning Techniques)
+# Spam Email Classifier- (via Natural Language Processing)
+
 
   Dataset is taken from UCI website.
   
@@ -76,4 +77,37 @@ Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting 
 #### iv.) Bagging Classifier-
 
 ![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Bag_roc.PNG)
+
+### Model Building-
+##### Trained model, deployed on Flask API-
+
+### Model deployment-
+#### Spam Email Classifier is deployed on Heroku platform using Flask API-
+
+https://spam-emails-predict-via-nlp.herokuapp.com/
+
+
+Test cases on deployed model-
+
+- Spam Email:
+
+Input-
+
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/spam-test-mail.PNG
+
+Output-
+
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/spam-test-mail-output.PNG
+
+- Ham Email:
+
+Input-
+
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail.PNG
+
+Output-
+
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail-output.PNG
+
+
 

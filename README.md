@@ -20,7 +20,7 @@
   
 - Naive Bayes Model: 
   
-  https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/Bayesian_Inference.ipynb
+  https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/Naive%20Bayes/Bayesian_Inference.ipynb
   
   
 - Ensemble Machine Learning Model-

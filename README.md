@@ -83,13 +83,11 @@ Applied Count Vectorizer and tfIdf Vectorizer on Random Forest and Gradient Boos
 
 https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Machine%20Learning%20Models/MLClassifier_RandomForestModel_with_grid-search.ipynb
 
-Precision: 1.0 / Recall: 0.83 / Accuracy: 0.977
+Precision: 1.0 , Recall: 0.83 , Accuracy: 0.977
 
 https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Machine%20Learning%20Models/MLClassifier_GradientBoostingModel_with_grid-search.ipynb
 
-Precision: 0.913 / Recall: 0.857 / Accuracy: 0.97
-
-
+Precision: 0.913 , Recall: 0.857 , Accuracy: 0.97
 
 ## Part 5: Pickle file generated from trained model, placed under Flask Api-
 

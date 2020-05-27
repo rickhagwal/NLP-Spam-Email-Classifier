@@ -1,4 +1,4 @@
-# Spam Email Classifier- ( Natural Language Processing and Supervised Learning Models)
+# Spam Email Classifier- ( via Natural Language Processing and Supervised Learning Models)
 
 
 ## Part 1: Data Collection-
@@ -32,7 +32,7 @@
     RandomForestClassifier
     
     AdaBoostClassifier
-
+   
    https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/Ensemble%20Machine%20Learning/Spam_%26_Ensembles.ipynb
    
 ## Part 3: Metrics Calculation-
@@ -51,41 +51,42 @@ Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting 
 
  And, it can be seen that Naive Bayes performed better than all the models in terms of Accuracy, Recall and F-1 score. Only for Recall metrics, Random Forest Classifier works best as shown below-
 
-![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/Metrics_Calculation_Image.PNG)
+![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/images/Metrics_Calculation_Image.PNG)
 
 & their, Accuracy, Precision, Recall and F1 scores are compared at the end, with Naive Bayes model approach, which already performed very well on the data.
 
  Also, ROC Curve i.e., Receiver Operating Characteristic Curve)  to determine split, is calculated for all the models, and it can be seen that the ROC curve split can be best done in Naive Bayes model(96.82%), compared to other models. as shown below-
 
-![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/ROC_Score.PNG)
+![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/images/ROC_Score.PNG)
 
 ## Part 4: ROC Curves for the models-
 
 #### i) Naive Bayes-
 
-![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/NB_roc.PNG)
+![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/images/NB_roc.PNG)
+
 
 #### ii) Random Forest Classifier-
 
-![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/RF_roc.PNG)
+![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/images/RF_roc.PNG)
 
 #### iii.) Adaboost Classifier-
 
-![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/Adaboost_roc.PNG)
+![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/images/Adaboost_roc.PNG)
 
 #### iv.) Bagging Classifier-
 
-![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/Bag_roc.PNG)
+![alt text](https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/images/Bag_roc.PNG)
 
 ## Part 5: NLP on models-
 
 Applied Count Vectorizer and tfIdf Vectorizer on Random Forest and Gradient Boosting models-
 
-https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Machine%20Learning%20Models/MLClassifier_RandomForestModel_with_grid-search.ipynb
+https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/Natural%20Language%20Processing/MLClassifier_GradientBoostingModel_with_grid-search.ipynb
 
 Precision: 1.0 , Recall: 0.83 , Accuracy: 0.977
 
-https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Machine%20Learning%20Models/MLClassifier_GradientBoostingModel_with_grid-search.ipynb
+https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/Spam%20Classifier/Natural%20Language%20Processing/MLClassifier_GradientBoostingModel_with_grid-search.ipynb
 
 Precision: 0.913 , Recall: 0.857 , Accuracy: 0.97
 

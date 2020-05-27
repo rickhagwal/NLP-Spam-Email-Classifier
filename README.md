@@ -1,4 +1,4 @@
-# Spam Email Classifier- (via Natural Language Processing)
+# Spam Email Classifier- ( Natural Language Processing and Supervised Learning Models)
 
 
 ## Part 1: Data Collection-
@@ -89,15 +89,15 @@ https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Machine%20
 
 Precision: 0.913 , Recall: 0.857 , Accuracy: 0.97
 
-## Part 5: Pickle file generated from trained model, placed under Flask Api-
+## Part 6: Pickle file generated from trained model, placed under Flask Api-
 
 https://github.com/rickhagwal/Natural-Language-Processing/blob/master/nlp_model.pkl
 
-## Part 6: Model deployment on Heroku platform-
+## Part 7: Model deployment on Heroku platform-
 
 https://spam-emails-predict-via-nlp.herokuapp.com/
 
-## Part 7: Test cases on deployed model-
+## Part 8: Test cases on deployed model-
 
 - Spam Email:
 

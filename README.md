@@ -50,7 +50,9 @@ Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting 
 #### And, it can be seen that Naive Bayes performed better than all the models in terms of Accuracy, Recall and F-1 score. Only for Recall metrics, Random Forest Classifier works best as shown below-
 
 
-![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Metrics_Calculation_Image.PNG)
+
+
+![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/Metrics_Calculation_Image.PNG)
 
 
 
@@ -58,31 +60,30 @@ Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting 
 
 #### Also, ROC Curve i.e., Receiver Operating Characteristic Curve)  to determine split, is calculated for all the models, and it can be seen that the ROC curve split can be best done in Naive Bayes model(96.82%), compared to other models. as shown below-
 
-![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/ROC_Score.PNG)
+![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/ROC_Score.PNG)
 
 ### ROC Curves for the models-
 
 #### i) Naive Bayes-
 
-![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/NB_roc.PNG)
+![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/NB_roc.PNG)
 
 #### ii) Random Forest Classifier-
 
-![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/RF_roc.PNG)
+![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/RF_roc.PNG)
 
 #### iii.) Adaboost Classifier-
 
-![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Adaboost_roc.PNG)
+![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/Adaboost_roc.PNG)
 
 #### iv.) Bagging Classifier-
 
-![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Bag_roc.PNG)
+![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/Bag_roc.PNG)
 
-### Model Building-
-##### Trained model, deployed on Flask API-
+#### Model Building, to be placed under Flask Api-
 
-### Model deployment-
-#### Spam Email Classifier is deployed on Heroku platform using Flask API-
+
+#### Model deployment on Heroku platform-
 
 https://spam-emails-predict-via-nlp.herokuapp.com/
 
@@ -93,21 +94,21 @@ Test cases on deployed model-
 
 Input-
 
-https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/spam-test-mail.PNG
+![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/spam-test-mail.PNG)
 
 Output-
 
-https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/spam-test-mail-output.PNG
+![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/spam-test-mail-output.PNG)
 
 - Ham Email:
 
 Input-
 
-https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail.PNG
+![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail.PNG)
 
 Output-
 
-https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail-output.PNG
+![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail-output.PNG)
 
 
 

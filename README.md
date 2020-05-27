@@ -80,7 +80,7 @@ Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting 
 
 ![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/Bag_roc.PNG)
 
-#### Model Building, to be placed under Flask Api-
+#### Pickle file generated from trained model, placed under Flask Api-
 
 https://github.com/rickhagwal/Natural-Language-Processing/blob/master/nlp_model.pkl
 

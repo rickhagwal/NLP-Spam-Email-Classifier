@@ -10,7 +10,7 @@
 
 using tools/technologies such as - Python, Jupyter Notebook, NLP(Natural Language Processing), NLTK(Natural Language Toolkit), Tensorflow, Pandas and Scikit-Learn libraries, Random Forest Classifier, Gradient Boosting Classifier, Naive Bayes, Count Vectorizer and TFIdf Vectorizer.
 
-### Spam Email Classifier is deployed on Heroku platform-
+### Spam Email Classifier is deployed on Heroku platform using Flask API-
 
 https://spam-emails-predict-via-nlp.herokuapp.com/
 

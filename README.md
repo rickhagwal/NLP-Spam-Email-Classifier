@@ -1,39 +1,79 @@
-# Spam Email Classifier deployed on Heroku platform.
+# Spam Email Classifier- (via Supervised Learning Techniques)
 
-• Built “Email Spam Filter” using thress of the machine learning models -
+  Dataset is taken from UCI website.
+  
 
-- Random Forest Model,
+  Following are the links-
+  
 
-- Gradient Boosting Model, and
-
-- Naive Bayes Model
-
-using tools/technologies such as - Python, Jupyter Notebook, NLP(Natural Language Processing), NLTK(Natural Language Toolkit), Tensorflow, Pandas and Scikit-Learn libraries, Random Forest Classifier, Gradient Boosting Classifier, Naive Bayes, Count Vectorizer and TFIdf Vectorizer.
-
-### Spam Email Classifier is deployed on Heroku platform using Flask API-
-
-https://spam-emails-predict-via-nlp.herokuapp.com/
+  https://archive.ics.uci.edu/ml/machine-learning-databases/00228/
 
 
-Test cases on deployed model-
+  https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
+  
+  
+  Machine Learning Models used-
+  
+  
+##### i.) Naive Bayes Model: 
+  
+  https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Bayesian_Inference.ipynb
+  
+  
+##### ii.) Ensemble Machine Learning Model-
 
-i.) Spam Email-
+   Here, various ensemble models are used i.e.,- 
+   
+    BaggingClassifier
+    
+    RandomForestClassifier
+    
+    AdaBoostClassifier
 
-Input-
+   https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Ensemble%20Machine%20Learning/Spam_%26_Ensembles.ipynb
+   
+##### iii.) Classification Models Metrics Calculation-
 
-https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/spam-test-mail.PNG
+https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Classification%20with%20metrics/Classification_Metrics.ipynb
 
-Output-
+Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting Calssifier, Adaboost Classifier, SVM) are calculated such as- 
 
-https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/spam-test-mail-output.PNG
+  i.) Accuracy: 
 
-ii.) Ham Email-
+  ii.) Precision
 
-Input-
+  iii.) Recall
 
-https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail.PNG
+  iv) F-1 Score
 
-Output-
+#### And, it can be seen that Naive Bayes performed better than all the models in terms of Accuracy, Recall and F-1 score. Only for Recall metrics, Random Forest Classifier works best as shown below-
 
-https://github.com/rickhagwal/Natural-Language-Processing/blob/master/images/ham-test-mail-output.PNG
+
+![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Metrics_Calculation_Image.PNG)
+
+
+
+& their, Accuracy, Precision, Recall and F1 scores are compared at the end, with Naive Bayes model approach, which already performed very well on the data.
+
+#### Also, ROC Curve i.e., Receiver Operating Characteristic Curve)  to determine split, is calculated for all the models, and it can be seen that the ROC curve split can be best done in Naive Bayes model(96.82%), compared to other models. as shown below-
+
+![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/ROC_Score.PNG)
+
+### ROC Curves for the models-
+
+#### i) Naive Bayes-
+
+![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/NB_roc.PNG)
+
+#### ii) Random Forest Classifier-
+
+![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/RF_roc.PNG)
+
+#### iii.) Adaboost Classifier-
+
+![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Adaboost_roc.PNG)
+
+#### iv.) Bagging Classifier-
+
+![alt text](https://github.com/rickhagwal/Supervised-Learning/blob/master/Spam%20Classifier/Bag_roc.PNG)
 

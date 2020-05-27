@@ -13,7 +13,7 @@
 
   https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
   
-## Part 2: Data Modleing-
+## Part 2: Data Modeling-
     
   Machine Learning Models used-
   
@@ -76,6 +76,20 @@ Here, different metrics for all the models(Naive Bayes, Random Forest, Boosting 
 #### iv.) Bagging Classifier-
 
 ![alt text](https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Spam%20Classifier/Bag_roc.PNG)
+
+## Part 5: NLP on models-
+
+Applied Count Vectorizer and tfIdf Vectorizer on Random Forest and Gradient Boosting models-
+
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Machine%20Learning%20Models/MLClassifier_RandomForestModel_with_grid-search.ipynb
+
+Precision: 1.0 / Recall: 0.83 / Accuracy: 0.977
+
+https://github.com/rickhagwal/Natural-Language-Processing/blob/master/Machine%20Learning%20Models/MLClassifier_GradientBoostingModel_with_grid-search.ipynb
+
+Precision: 0.913 / Recall: 0.857 / Accuracy: 0.97
+
+
 
 ## Part 5: Pickle file generated from trained model, placed under Flask Api-
 

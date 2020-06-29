@@ -1,6 +1,12 @@
 # Spam Email Classifier- ( via Natural Language Processing and Supervised Learning Models)
 
 
+## DEMO-
+
+https://spam-emails-predict-via-nlp.herokuapp.com/
+
+## Steps:
+
 ## Part 1: Data Collection-
   Dataset is taken from UCI website.
   
@@ -94,9 +100,6 @@ Precision: 0.913 , Recall: 0.857 , Accuracy: 0.97
 
 https://github.com/rickhagwal/NLP-Spam-Email-Classifier/blob/master/nlp_model.pkl
 
-## Part 7: Model deployment on Heroku platform-
-
-https://spam-emails-predict-via-nlp.herokuapp.com/
 
 ## Part 8: Test cases on deployed model-
 
